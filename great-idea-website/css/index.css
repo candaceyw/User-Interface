@@ -66,6 +66,117 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 800px;
-	margin: auto;
+	position: relative; 
+	margin: 0 auto; max-width: 876px; 
+	/* border: solid red; */
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+header nav a {
+	margin: 0 30px;
+	text-decoration: none;
+	color: gray;
+}
+
+header .logo {
+	margin-left: 4px;
+}
+
+
+  h1 {
+	  font-size: 64px;
+	  text-align: center; 
+	  margin-top: 15%
+  }
+  
+.col{
+	position: relative;
+	width: 49.5%;
+	padding: 2%;
+	display:inline-block;
+	vertical-align:top;
+	text-align: center
+	margin-bottom: 35px;
+  }
+
+button {
+	background-color: white;
+	color: black;
+	border: 2px solid gray;
+	width: 100px;
+	height: 50px;
+  }
+
+  .photo { 
+	text-align: right; 
+	width: 100%;
+	}
+
+  .cta{ 
+	text-align: center; 
+	padding: 25px 0;  
+  }
+
+
+.main-content {
+	margin-top: 35px;
+	margin-bottom: 35px;
+	position: relative;
+	border-top: 1px solid black;
+	line-height: 20px;
+	width: 100%;
+
+}
+
+  .top-left {
+	margin-top: 35px;
+	position: relative;
+	display: inline-block;
+	width: 49%;
+	padding: 5px;
+  }
+
+  .top-right {
+	margin-top: 35px;
+	position: relative;
+	display: inline-block;
+	width: 50%;
+}
+.bottom-content {
+	margin-bottom: 35px;
+	
+}
+
+
+.middle-img {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.content-box {
+	padding: 0px 20px 0px 0px;
+	width: 32%;
+	display: inline-block;
+}
+
+.content-box:last-child {
+	padding-right: 0px;
+}
+
+.contact {
+	margin: 30px 0px 30px 0px;
+	border-top: 1px solid black;
+}
+h3{
+	margin: 30px 0px 0px 0px;
+}
+
+footer h6{
+	font-size: 12px;
+	text-align: center;
 }
